@@ -55,7 +55,7 @@ BASE = 16
 
 #Load flow-field data
 #------------------------
-fnstr="../DATA/Re35_N16_T60000_1_2_32x32.pickle"
+fnstr="../DATA/Kolmogorov_Re35_N16_T30000_32x32.pickle"
 
 # Pickle load
 
