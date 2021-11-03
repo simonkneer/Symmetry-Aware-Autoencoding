@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon JUL 13 08:48:56 2020
+Created on Mon OCT 15 08:48:56 2021
 
-@author: iagkneer
+@author: svk20
 
 ###############################################################################
-            NEURAL NETWORL TO GENERATE POD FROM DATA
+          GENERATE PCA FOR THE SUDDEN EXPANSION DATA
 ###############################################################################
 
-#SUPERIOR:            none
-#INFERIOR:            none
+#SUPERIOR:            None
+#INFERIOR:            None
 #VERSION:             1.0
 #
 #BASIC IMPLEMENTATION: -
@@ -17,11 +17,11 @@ Created on Mon JUL 13 08:48:56 2020
 #
 #RECENT CHANGES:
 #DESCRIPTION:
-# This is a first implementation to generate POD from data using a neural net
-#INPUT:    /data
+# This is an implementation to generate PCA from data using the eigenvalue problem
+#INPUT:    /DATA
 #          
 #
-#OUTPUT:   /out
+#OUTPUT:   
 
 
 ###############################################################################
