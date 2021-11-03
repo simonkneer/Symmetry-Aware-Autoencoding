@@ -18,7 +18,7 @@ Created on Mon OCT 15 08:48:56 2021
 #RECENT CHANGES:
 #DESCRIPTION:
 # This is an implementation to generate symmetry aware nonlinear PCA (s-nlPCA) from data using a neural net
-#INPUT:    /DATA
+#INPUT:    ../DATA
 #          
 #
 #OUTPUT:   /models
@@ -53,7 +53,7 @@ n_modes=1
 
 #load flow-field data
 #------------------------
-fnstr="DATA/BURGERS_1D.pickle"
+fnstr="../DATA/BURGERS_1D.pickle"
 with open(fnstr, 'rb') as f:
     X = pk.load(f) #Data is ordered (t,Y,X)
 
