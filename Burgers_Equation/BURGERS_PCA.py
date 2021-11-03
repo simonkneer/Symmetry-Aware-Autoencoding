@@ -18,10 +18,10 @@ Created on Mon OCT 15 08:48:56 2021
 #RECENT CHANGES:
 #DESCRIPTION:
 # This is an implementation to generate PCA from data using the eigenvalue problem
-#INPUT:    /data
+#INPUT:    /DATA
 #          
 #
-#OUTPUT:   /models
+#OUTPUT:   
 
 
 ###############################################################################
