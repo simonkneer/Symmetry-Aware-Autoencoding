@@ -14,7 +14,7 @@ Created on Mon OCT 15 08:48:56 2021
 #
 #RECENT CHANGES:
 #DESCRIPTION:
-# This is an implementation to plot nonlinear symmetr-aware PCA (s-nlPCA) from data using a neural net
+# This is an implementation to plot nonlinear symmetry-aware PCA (s-nlPCA) from data using a neural net
 #INPUT:    ../DATA
 #          
 #
