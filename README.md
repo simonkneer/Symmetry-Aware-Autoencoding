@@ -1,6 +1,6 @@
 # Symmetry-Aware-Autoencoding
 
-This repository provides codes for performing s-PCA and s-nlPCA outlined in the paper 'Symmetry-Aware Autoencoders: s-PCA and s-nlPCA' (arxiv link).
+This repository provides codes for performing s-PCA and s-nlPCA outlined in the paper 'Symmetry-Aware Autoencoders: s-PCA and s-nlPCA (arxiv link).
 
 #-----------------------------------------
 
