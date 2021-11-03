@@ -3,7 +3,7 @@
 Created on Mon OCT 15 08:48:56 2021
 @author: svk20
 ###############################################################################
-          NEURAL NETWORK TO GENERATE nlPCA FOR THE SUDDEN EXPANSION DATA
+          NEURAL NETWORK TO GENERATE s-PCA FOR THE SUDDEN EXPANSION DATA
 ###############################################################################
 #SUPERIOR:            None
 #INFERIOR:            None
@@ -14,7 +14,7 @@ Created on Mon OCT 15 08:48:56 2021
 #
 #RECENT CHANGES:
 #DESCRIPTION:
-# This is an implementation to generate nonlinear PCA (nlPCA) from data using a neural net
+# This is an implementation to generate symmetry aware PCA (s-PCA) from data using a neural net and a following eigenvalue ansatz
 #INPUT:    /DATA
 #          
 #
