@@ -6,8 +6,8 @@ This repository provides codes for performing s-PCA and s-nlPCA outlined in the 
 
 #Structure
 
-Each of the directories belonging to a dataset (Burgers_Equation, Sudden_Expansion, Kolmogorov_Flow) can be downloaded and run independently from each other.
-Each of these holds a subdirectory called DATA to which the corresponding data from our repository (insert link) should be downloaded. Each directory also contains
+Each of the scripts belonging to a dataset (Burgers_Equation, Sudden_Expansion, Kolmogorov_Flow) can be downloaded and run independently from each other.
+Each of these holdsneeds access to the directory called DATA to which the corresponding data from our repository (https://zenodo.org/record/5642671) should be downloaded. Each directory also contains
 a subdirectory called models, where the scripts save the trained models.
 
 #-----------------------------------------
