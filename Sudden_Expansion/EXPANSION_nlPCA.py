@@ -1,13 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Created on Mon JUL 13 08:48:56 2020
-
-@author: iagkneer
-
+Created on Mon OCT 15 08:48:56 2021
+@author: svk20
 ###############################################################################
-            NEURAL NETWORL TO GENERATE POD FROM DATA
+          NEURAL NETWORK TO GENERATE nlPCA FOR THE SUDDEN EXPANSION DATA
 ###############################################################################
-
 #SUPERIOR:            None
 #INFERIOR:            None
 #VERSION:             1.0
@@ -17,13 +14,11 @@ Created on Mon JUL 13 08:48:56 2020
 #
 #RECENT CHANGES:
 #DESCRIPTION:
-# This is a first implementation to generate POD from data using a neural net
-#INPUT:    /data
+# This is an implementation to generate nonlinear PCA (nlPCA) from data using a neural net
+#INPUT:    /DATA
 #          
 #
-#OUTPUT:   /out
-
-
+#OUTPUT:   /models
 ###############################################################################
 """
 import numpy as np
