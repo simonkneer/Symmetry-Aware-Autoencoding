@@ -5,7 +5,7 @@ Created on Mon OCT 15 08:48:56 2021
 @author: svk20
 
 ###############################################################################
-          NEURAL NETWORK TO GENERATE PCA FOR THE BURGERS' DATA
+          GENERATE PCA FOR THE BURGERS' DATA
 ###############################################################################
 
 #SUPERIOR:            None
