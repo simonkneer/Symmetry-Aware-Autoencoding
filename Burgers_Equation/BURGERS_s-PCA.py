@@ -189,7 +189,7 @@ reconstructed=np.matmul(calc_amp.T,modes.T)
 #Plot modes
 x_coords = np.linspace(0,2*np.pi,64)
 plt.figure("Modes",figsize=(12, 6))
-colors = ['black','red','blue','green']
+colors = ['black','red','blue','green','gold','lime','hotpink']
 marks = ['v','^','<','>']
 for i in range(n_modes):
     plt.plot(x_coords,modes[:,i],c=colors[i],marker=marks[i],markevery=5,label='$i={}$'.format(i+1))
