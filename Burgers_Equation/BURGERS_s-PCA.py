@@ -5,7 +5,7 @@ Created on Mon OCT 15 08:48:56 2021
 @author: svk20
 
 ###############################################################################
-          NEURAL NETWORK TO GENERATE s-nlPCA FOR THE BURGERS' DATA
+          NEURAL NETWORK TO GENERATE s-PCA FOR THE BURGERS' DATA
 ###############################################################################
 
 #SUPERIOR:            None
@@ -17,7 +17,7 @@ Created on Mon OCT 15 08:48:56 2021
 #
 #RECENT CHANGES:
 #DESCRIPTION:
-# This is an implementation to generate symmetry aware nonlinear PCA (s-nlPCA) from data using a neural net
+# This is an implementation to generate symmetry aware PCA (s-PCA) from data using a neural net and a following eigenvalue ansatz
 #INPUT:    /data
 #          
 #
