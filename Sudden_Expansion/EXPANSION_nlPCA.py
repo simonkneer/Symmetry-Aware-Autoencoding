@@ -15,7 +15,7 @@ Created on Mon OCT 15 08:48:56 2021
 #RECENT CHANGES:
 #DESCRIPTION:
 # This is an implementation to generate nonlinear PCA (nlPCA) from data using a neural net
-#INPUT:    /DATA
+#INPUT:    ../DATA
 #          
 #
 #OUTPUT:   /models
@@ -63,7 +63,8 @@ the original data. This dimension contains the original flow field at
 position one and the reflected state at position two.
 """
 #------------------------
-fnstr="DATA/State_ALL_rect.pickle"
+fnstr="../DATA/Sudden_Expansion_Re150_Rectilinear.pickle"
+State_ALL_rect.pickle"
 # Pickle load
 with open(fnstr, 'rb') as f:
     X = pk.load(f)
