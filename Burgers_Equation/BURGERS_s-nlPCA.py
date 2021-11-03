@@ -18,7 +18,7 @@ Created on Mon OCT 15 08:48:56 2021
 #RECENT CHANGES:
 #DESCRIPTION:
 # This is an implementation to generate symmetry aware nonlinear PCA (s-nlPCA) from data using a neural net
-#INPUT:    /data
+#INPUT:    /DATA
 #          
 #
 #OUTPUT:   /models
