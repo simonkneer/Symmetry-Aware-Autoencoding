@@ -5,7 +5,7 @@ Created on Mon OCT 15 08:48:56 2021
 @author: svk20
 
 ###############################################################################
-          NEURAL NETWORK TO GENERATE s-nlPCA FOR THE BURGERS' DATA
+          NEURAL NETWORK TO GENERATE PCA FOR THE BURGERS' DATA
 ###############################################################################
 
 #SUPERIOR:            None
@@ -17,7 +17,7 @@ Created on Mon OCT 15 08:48:56 2021
 #
 #RECENT CHANGES:
 #DESCRIPTION:
-# This is an implementation to generate symmetry aware nonlinear PCA (s-nlPCA) from data using a neural net
+# This is an implementation to generate PCA from data using the eigenvalue problem
 #INPUT:    /data
 #          
 #
@@ -62,7 +62,7 @@ reconstructed=np.matmul(calc_amp.T,modes.T)
 #Plot modes
 x_coords = np.linspace(0,2*np.pi,64)
 plt.figure("Modes",figsize=(12, 6))
-colors = ['black','red','blue','green']
+colors = ['black','red','blue','green','gold','lime','hotpink']
 marks = ['v','^','<','>']
 for i in range(n_modes):
     plt.plot(x_coords,modes[:,i],c=colors[i],marker=marks[i],markevery=5,label='$i={}$'.format(i+1))
