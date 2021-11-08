@@ -61,7 +61,8 @@ w = w[::-1]
 v = v[:,::-1]
 
 #Recreate spatial eigenfunctions from snapshot ones
-modes=v
+modes=np.matmul(X,v)/np.sqrt(abs(w))
+
 
 #Coefficients
 amplitudes=np.matmul(modes.T,X.T)
