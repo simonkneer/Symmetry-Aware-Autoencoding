@@ -61,6 +61,8 @@ w, v = linalg.eigh(R,subset_by_index = [R.shape[0]-max_modes, R.shape[0]-1] )
 w = w[::-1]
 v = v[:,::-1]
 
+#Recreate spatial eigenfunctions from snapshot ones
+modes=np.matmul(X,v)/np.sqrt(abs(w))
 
 #Recreate reconstructed state and calc error_field
 reconstructed=np.zeros((int(D.shape[1]*D.shape[2]),D.shape[0]))
