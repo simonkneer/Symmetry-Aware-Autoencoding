@@ -61,7 +61,7 @@ w = w[::-1]
 v = v[:,::-1]
 
 #Recreate spatial eigenfunctions from snapshot ones
-modes=np.matmul(X,v)/np.sqrt(abs(w))
+modes = v
 
 
 #Coefficients
